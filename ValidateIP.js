@@ -7,6 +7,8 @@ var validateIp = (inputString) =>
 {
 	if (typeof inputString !== 'string')
 		return false;
+	if (inputString.length < 7 || inputString.length > 15)
+		return false;
 
 	var octetStr = inputString.split('.');
 
