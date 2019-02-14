@@ -2,9 +2,9 @@
   "name": "ip_validation_js",
   "version": "1.0.0",
   "description": "A small function and some test code to confirm an inputted string as a valid ip address",
-  "main": "index.js",
+  "main": "ValidateIP.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "keywords": [
     "IP",
